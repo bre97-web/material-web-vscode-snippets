@@ -1,0 +1,27 @@
+{
+  "name": "material-web-vscode-snippets",
+  "displayName": "material-web-snippets",
+  "description": "A material design 3(@material/web) extension of visual studio code.",
+  "author": "bre97-web",
+  "publisher": "bre97-web",
+  "license": "MIT",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bre97-web/material-web-vscode-snippets"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
