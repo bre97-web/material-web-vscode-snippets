@@ -1,11 +1,13 @@
 {
   "name": "material-web-vscode-snippets",
-  "displayName": "material-web-snippets",
-  "description": "A material design 3(@material/web) extension of visual studio code.",
+  "displayName": "Material Web Components Snippets",
+  "description": "A material design 3(@material/web) snippets extension of visual studio code.",
+  "keywords": ["google", "material", "snippets", "material web components"],
   "author": "bre97-web",
   "publisher": "bre97-web",
   "license": "MIT",
   "version": "0.0.2",
+  "icon": "./src/images/extension-icon-128.png",
   "engines": {
     "vscode": "^1.82.0"
   },
