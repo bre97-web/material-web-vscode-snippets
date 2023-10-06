@@ -2,12 +2,17 @@
   "name": "material-web-vscode-snippets",
   "displayName": "Material Web Components Snippets",
   "description": "A material design 3(@material/web) snippets extension of visual studio code.",
-  "keywords": ["google", "material", "snippets", "material web components"],
+  "keywords": [
+    "google",
+    "material",
+    "snippets",
+    "material web components"
+  ],
   "author": "bre97-web",
   "publisher": "bre97-web",
   "license": "MIT",
-  "version": "0.0.2",
-  "icon": "./src/images/extension-icon-128.png",
+  "version": "0.0.3",
+  "icon": "src/images/icon/extension-icon-128.png",
   "engines": {
     "vscode": "^1.82.0"
   },
@@ -24,6 +29,39 @@
         "language": "html",
         "path": "./snippets/snippets.code-snippets"
       }
-    ]
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "title": "Material Web Components",
+          "id": "material-web-components-snippets",
+          "icon": "src/images/icon/extension-icon-32-outlined.svg"
+        }
+      ]
+    },
+    "views": {
+      "material-web-components-snippets": [
+				{
+					"id": "tree",
+					"name": "Code Snippets",
+          "type": "tree"
+				}
+      ]
+    }
+  },
+  "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "dependencies": {
+    "@types/vscode": "^1.83.0",
+    "mkdirp": "^3.0.1",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2"
   }
 }

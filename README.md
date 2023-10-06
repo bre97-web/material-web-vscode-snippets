@@ -4,9 +4,9 @@ material-web-vscode-snippets is a Visual Studio Code Extension, the extension on
 
 |||
 |:--:|:--:|
-|![INTRO PICTURE](https://raw.githubusercontent.com/bre97-web/material-web-vscode-snippets/main/src/resources/intro-fab.png)|![INTRO PICTURE](https://raw.githubusercontent.com/bre97-web/material-web-vscode-snippets/main/src/resources/intro-button.png)|
+|![INTRO PICTURE](https://raw.githubusercontent.com/bre97-web/material-web-vscode-snippets/main/src/images/resources/intro-fab.png)|![INTRO PICTURE](https://raw.githubusercontent.com/bre97-web/material-web-vscode-snippets/main/src/images/resources/intro-button.png)|
 
-![INTRO PICTURE](https://raw.githubusercontent.com/bre97-web/material-web-vscode-snippets/ac909cab5c959f28da180ff51be1136178ec9371/src/resources/intro-code.png)
+![INTRO PICTURE](https://raw.githubusercontent.com/bre97-web/material-web-vscode-snippets/main/src/images/resources/intro-code.png)
 
 
 
