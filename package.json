@@ -11,7 +11,7 @@
   "author": "bre97-web",
   "publisher": "bre97-web",
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "icon": "src/images/icon/extension-icon-128.png",
   "engines": {
     "vscode": "^1.82.0"
@@ -41,11 +41,11 @@
     },
     "views": {
       "material-web-components-snippets": [
-				{
-					"id": "tree",
-					"name": "Code Snippets",
+        {
+          "id": "tree",
+          "name": "Code Snippets",
           "type": "tree"
-				}
+        }
       ]
     }
   },
@@ -56,12 +56,10 @@
     "watch": "tsc -watch -p ./"
   },
   "dependencies": {
-    "@types/vscode": "^1.83.0",
-    "mkdirp": "^3.0.1",
-    "rimraf": "^5.0.5",
-    "typescript": "^5.2.2"
   },
   "devDependencies": {
+    "@types/vscode": "^1.73.0",
+    "typescript": "^5.2.2",
     "@types/node": "^20.8.2"
   }
 }
