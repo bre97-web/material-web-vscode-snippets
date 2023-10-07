@@ -1,0 +1,746 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "md-elevated-button",
+      "description": "Elevated buttons are essentially filled tonal buttons with a shadow. To prevent shadow creep, only use them when absolutely necessary, such as when the button requires visual separation from a patterned background.",
+      "attributes": [
+        { "name": "disabled" },
+        { "name": "href" },
+        { "name": "trailing-icon" },
+        { "name": "has-icon" },
+        { "name": "value" },
+        { "name": "name" },
+        { "name": "form" },
+        {
+          "name": "type",
+          "values": [
+            { "name": "submit" },
+            { "name": "button" },
+            { "name": "reset" }
+          ]
+        },
+        {
+          "name": "target",
+          "values": [
+            { "name": "" },
+            { "name": "_blank" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "md-filled-button",
+      "description": "Filled buttons have the most visual impact after the FAB, and should be used for important, final actions that complete a flow, like Save, Join now, or Confirm.",
+      "attributes": [
+        { "name": "disabled" },
+        { "name": "href" },
+        { "name": "trailing-icon" },
+        { "name": "has-icon" },
+        { "name": "value" },
+        { "name": "name" },
+        { "name": "form" },
+        {
+          "name": "type",
+          "values": [
+            { "name": "submit" },
+            { "name": "button" },
+            { "name": "reset" }
+          ]
+        },
+        {
+          "name": "target",
+          "values": [
+            { "name": "" },
+            { "name": "_blank" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "md-filled-tonal-button",
+      "description": "A filled tonal button is an alternative middle ground between filled and outlined buttons. They're useful in contexts where a lower-priority button requires slightly more emphasis than an outline would give, such as \"Next\" in an onboarding flow.",
+      "attributes": [
+        { "name": "disabled" },
+        { "name": "href" },
+        { "name": "trailing-icon" },
+        { "name": "has-icon" },
+        { "name": "value" },
+        { "name": "name" },
+        { "name": "form" },
+        {
+          "name": "type",
+          "values": [
+            { "name": "submit" },
+            { "name": "button" },
+            { "name": "reset" }
+          ]
+        },
+        {
+          "name": "target",
+          "values": [
+            { "name": "" },
+            { "name": "_blank" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "md-outlined-button",
+      "description": "Outlined buttons are medium-emphasis buttons. They contain actions that are important, but aren't the primary action in an app.",
+      "attributes": [
+        { "name": "disabled" },
+        { "name": "href" },
+        { "name": "trailing-icon" },
+        { "name": "has-icon" },
+        { "name": "value" },
+        { "name": "name" },
+        { "name": "form" },
+        {
+          "name": "type",
+          "values": [
+            { "name": "submit" },
+            { "name": "button" },
+            { "name": "reset" }
+          ]
+        },
+        {
+          "name": "target",
+          "values": [
+            { "name": "" },
+            { "name": "_blank" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "md-text-button",
+      "description": "Text buttons are used for the lowest priority actions, especially when presenting multiple options.",
+      "attributes": [
+        { "name": "disabled" },
+        { "name": "href" },
+        { "name": "trailing-icon" },
+        { "name": "has-icon" },
+        { "name": "value" },
+        { "name": "name" },
+        { "name": "form" },
+        {
+          "name": "type",
+          "values": [
+            { "name": "submit" },
+            { "name": "button" },
+            { "name": "reset" }
+          ]
+        },
+        {
+          "name": "target",
+          "values": [
+            { "name": "" },
+            { "name": "_blank" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "md-checkbox",
+      "description": "Checkboxes allow users to select one or more items from a set. Checkboxes can turn an option on or off. There's one type of checkbox in Material. Use this selection control when the user needs to select one or more options from a list. Checkboxes may be standalone, pre-checked, or indeterminate.",
+      "attributes": [
+        { "name": "checked" },
+        { "name": "disabled" },
+        { "name": "indeterminate" },
+        { "name": "required" },
+        { "name": "value" },
+        { "name": "name" },
+        { "name": "form" },
+        { "name": "labels" }
+      ]
+    },
+
+    {
+      "name": "md-chip-set",
+      "description": "Chips help people enter information, make selections, filter content, or trigger actions.",
+      "attributes": [
+        { "name": "chips" }
+      ]
+    },
+    {
+      "name": "md-assist-chip",
+      "description": "Assist chips represent smart or automated actions that can span multiple apps, such as opening a calendar event from the home screen. Assist chips function as though the user asked an assistant to complete the action. They should appear dynamically and contextually in a UI.",
+      "attributes": [
+        { "name": "elevated" },
+        { "name": "href" },
+        { "name": "target" },
+        { "name": "disabled" },
+        { "name": "always-focusable" },
+        { "name": "label" }
+      ]
+    },
+    {
+      "name": "md-filter-chip",
+      "description": "Filter chips use tags or descriptive words to filter content. They can be a good alternative to toggle buttons or checkboxes.",
+      "attributes": [
+        { "name": "elevated" },
+        { "name": "removable" },
+        { "name": "selected" },
+        { "name": "disabled" },
+        { "name": "always-focusable" },
+        { "name": "label" },
+        { "name": "handle-trailing-action-focus" },
+        { "name": "aria-label-remove" }
+      ]
+    },
+    {
+      "name": "md-input-chip",
+      "description": "Input chips represent discrete pieces of information entered by a user, such as Gmail contacts or filter options within a search field. Input chips whose icons are user images may add the avatar attribute to display the image in a larger circle.",
+      "attributes": [
+        { "name": "avatar" },
+        { "name": "href" },
+        { "name": "target" },
+        { "name": "remove-only" },
+        { "name": "selected" },
+        { "name": "disabled" },
+        { "name": "always-focusable" },
+        { "name": "label" },
+        { "name": "handle-trailing-action-focus" },
+        { "name": "aria-label-remove" }
+      ]
+    },
+    {
+      "name": "md-suggestion-chip",
+      "description": "Suggestion chips help narrow a user's intent by presenting dynamically generated suggestions, such as possible responses or search filters.",
+      "attributes": [
+        { "name": "elevated" },
+        { "name": "href" },
+        { "name": "target" },
+        { "name": "disabled" },
+        { "name": "always-focusable" },
+        { "name": "label" }
+      ]
+    },
+
+    {
+      "name": "md-dialog",
+      "description": "Dialogs behave like <dialog> elements, and can be closed with a <form method=\"dialog\"> element. Dialogs have three optional sections: the headline title, the main content, and action buttons.",
+      "attributes": [
+        { "name": "return-value" },
+        {
+          "name": "type",
+          "values": [
+            { "name": "alert" }
+          ]
+        },
+        { "name": "open" }
+      ]
+    },
+
+    {
+      "name": "md-divider",
+      "description": "Dividers can reinforce tapability, such as when used to separate list items or define tappable regions in an accordion.",
+      "attributes": [
+        { "name": "inset" },
+        { "name": "inset-start" },
+        { "name": "inset-end" }
+      ]
+    },
+
+    {
+      "name": "md-elevation",
+      "description": "Material's elevation system is deliberately limited to just a handful of levels. This creative constraint means you need to make thoughtful decisions about your UI's elevation story."
+    },
+
+    {
+      "name": "md-fab",
+      "description": "FAB represents the most important action on a screen. It puts key actions within reach.",
+      "attributes": [
+        {
+          "name": "variant",
+          "values": [
+            { "name": "surface" },
+            { "name": "primary" },
+            { "name": "secondary" },
+            { "name": "tertiary" }
+          ]
+        },
+        { 
+          "name": "size",
+          "values": [
+            { "name": "small" },
+            { "name": "medium" },
+            { "name": "large" }
+          ]
+        },
+        { "name": "label" },
+        { "name": "lowered" }
+      ]
+    },
+    {
+      "name": "md-branded-fab",
+      "description": "Branded FABs use a brightly colored logo for their icon. Unlike FAB, branded FABs do not have color variants.",
+      "attributes": [
+        {
+          "name": "variant",
+          "values": [
+            { "name": "surface" },
+            { "name": "primary" },
+            { "name": "secondary" },
+            { "name": "tertiary" }
+          ]
+        },
+        { 
+          "name": "size",
+          "values": [
+            { "name": "medium" },
+            { "name": "large" }
+          ]
+        },
+        { "name": "label" },
+        { "name": "lowered" }
+      ]
+    },
+
+    {
+      "name": "md-focus-ring",
+      "description": "Focus rings are accessible outlines for components to show keyboard focus.",
+      "attributes": [
+        { "name": "visivle" },
+        { "name": "inward" },
+        { "name": "htmlFor" },
+        { "name": "control" }
+      ]
+    },
+
+    {
+      "name": "md-icon-button",
+      "description": "Icon buttons can be grouped together or they can stand alone.",
+      "attributes": [
+        { "name": "disabled" },
+        { "name": "filp-icon-in-rtl" },
+        { "name": "href" },
+        { "name": "target" },
+        { "name": "aria-label-selected" },
+        { "name": "toggle" },
+        { "name": "selected" },
+        { "name": "type" },
+        { "name": "value" },
+        { "name": "name" },
+        { "name": "form" },
+        { "name": "labels" }
+      ]
+    },
+    {
+      "name": "md-filled-icon-button",
+      "description": "Filled icon buttons have higher visual impact and are best for high emphasis actions.",
+      "attributes": [
+        { "name": "disabled" },
+        { "name": "filp-icon-in-rtl" },
+        { "name": "href" },
+        { "name": "target" },
+        { "name": "aria-label-selected" },
+        { "name": "toggle" },
+        { "name": "selected" },
+        { "name": "type" },
+        { "name": "value" },
+        { "name": "name" },
+        { "name": "form" },
+        { "name": "labels" }
+      ]
+    },
+    {
+      "name": "md-filled-tonal-icon-button",
+      "description": "Filled tonal icon buttons are a middle ground between filled and outlined icon buttons. They're useful in contexts where the button requires slightly more emphasis than an outline would give, such as a secondary action paired with a high emphasis action.",
+      "attributes": [
+        { "name": "disabled" },
+        { "name": "filp-icon-in-rtl" },
+        { "name": "href" },
+        { "name": "target" },
+        { "name": "aria-label-selected" },
+        { "name": "toggle" },
+        { "name": "selected" },
+        { "name": "type" },
+        { "name": "value" },
+        { "name": "name" },
+        { "name": "form" },
+        { "name": "labels" }
+      ]
+    },
+    {
+      "name": "md-outlined-icon-button",
+      "description": "Outlined icon buttons are medium-emphasis buttons. They're useful when an icon button needs more emphasis than a standard icon button but less than a filled or filled tonal icon button.",
+      "attributes": [
+        { "name": "disabled" },
+        { "name": "filp-icon-in-rtl" },
+        { "name": "href" },
+        { "name": "target" },
+        { "name": "aria-label-selected" },
+        { "name": "toggle" },
+        { "name": "selected" },
+        { "name": "type" },
+        { "name": "value" },
+        { "name": "name" },
+        { "name": "form" },
+        { "name": "labels" }
+      ]
+    },
+
+    {
+      "name": "md-icon",
+      "description": "Icons can be used to represent common actions. Material Symbols are a set of variable icon fonts created at seven weights across three different styles."
+    },
+
+    {
+      "name": "md-list",
+      "description": "Lists are continuous, vertical indexes of text and images",
+      "attributes": [
+        { "name": "items" }
+      ]
+    },
+    {
+      "name": "md-list-item",
+      "description": "<md-list> is a container composed of <md-list-item>s of different types.",
+      "attributes": [
+        { "name": "disabled" },
+        {
+          "name": "type",
+          "values": [
+            { "name": "text" },
+            { "name": "link" },
+            { "name": "button" }
+          ]
+        },
+        { "name": "href" },
+        { "name": "target" }
+      ]
+    },
+
+    {
+      "name": "md-menu",
+      "description": "Menus display a list of choices on a temporary surface.",
+      "attributes": [
+        { "name": "anchor" },
+        {
+          "name": "positioning",
+          "values": [
+            { "name": "absolute" },
+            { "name": "fixed" },
+            { "name": "relative" }
+          ]
+        },
+        { "name": "quick" },
+        { "name": "has-overflow" },
+        { "name": "x-offset" },
+        { "name": "y-offset" },
+        { "name": "typehead-delay" },
+        { "name": "anchor-corner" },
+        { "name": "menu-corner" },
+        { "name": "stay-open-on-outside-click" },
+        { "name": "stay-open-on-focusout" },
+        { "name": "skip-restore-focus" },
+        { "name": "default-focus" }
+      ]
+    },
+    {
+      "name": "md-menu-item",
+      "description": "Menus also render menu items such as md-menu-item and handle keyboard navigation between md-menu-items as well as typeahead functionality. Additionally, md-menu interacts with md-menu-items to help you determine how a menu was closed. Listen for and inspect the close-menu custom event's details to determine what action and items closed the menu.",
+      "attributes": [
+        { "name": "disabled" },
+        {
+          "name": "type",
+          "values": [
+            { "name": "menuitem" },
+            { "name": "combobox" }
+          ]
+        },
+        { "name": "href" },
+        { "name": "target" },
+        { "name": "keep-open" },
+        { "name": "selected" }
+      ]
+    },
+    {
+      "name": "md-sub-menu",
+      "description": "You can compose <md-menu>s inside of an <md-sub-menu>'s menu slot, but first the has-overflow attribute must be set on the root <md-menu> to disable overflow scrolling and display the nested submenus.",
+      "attributes": [
+        { "name": "anchor-corner" },
+        { "name": "menu-corner" },
+        { "name": "hover-open-delay" },
+        { "name": "hover-close-delay" },
+        { "name": "md-sub-menu" }
+      ]
+    },
+
+    {
+      "name": "md-circular-progress",
+      "description": "Circular progress indicators display progress by animating along an invisible circular track in a clockwise direction.",
+      "attributes": [
+        { "name": "value" },
+        { "name": "max" },
+        { "name": "indeterminate" },
+        { "name": "four-color" }
+      ]
+    },
+    {
+      "name": "md-linear-progress",
+      "description": "Linear progress indicators display progress by animating along the length of a fixed, visible track.",
+      "attributes": [
+        { "name": "buffer" },
+        { "name": "value" },
+        { "name": "max" },
+        { "name": "indeterminate" },
+        { "name": "four-color" }
+      ]
+    },
+
+    {
+      "name": "md-radio",
+      "description": "Radios behave like <input type=\"radio\"> elements and form a group with the same name attribute. Only one radio can be selected in a group.",
+      "attributes": [
+        { "name": "disabled" },
+        { "name": "value" },
+        { "name": "checked" },
+        { "name": "name" },
+        { "name": "form" },
+        { "name": "labels" }
+      ]
+    },
+
+    {
+      "name": "md-ripple",
+      "description": "Ripples display on hover and press pointer interactions. They may be attached to a control in one of three ways.",
+      "attributes": [
+        { "name": "disabled" },
+        { "name": "htmlFor" },
+        { "name": "control" }
+      ]
+    },
+
+    {
+      "name": "md-filled-select",
+      "description": "Select menus display a list of choices on temporary surfaces and display the currently selected menu item above the menu.",
+      "attributes": [
+        { "name": "quick" },
+        { "name": "required" },
+        { "name": "disabled" },
+        { "name": "error-text" },
+        { "name": "label" },
+        { "name": "supporting-text" },
+        { "name": "error" },
+        {
+          "name": "menu-positioning",
+          "values": [
+            { "name": "absolute" },
+            { "name": "fixed" }
+          ]
+        },
+        { "name": "typeahead-delay" },
+        { "name": "has-leading-icon" },
+        { "name": "display-text" },
+        { "name": "value" },
+        { "name": "selected-index" },
+        { "name": "name" },
+        { "name": "form" },
+        { "name": "labels" }
+      ]
+    },
+    {
+      "name": "md-outlined-select",
+      "description": "Select menus display a list of choices on temporary surfaces and display the currently selected menu item above the menu.",
+      "attributes": [
+        { "name": "quick" },
+        { "name": "required" },
+        { "name": "disabled" },
+        { "name": "error-text" },
+        { "name": "label" },
+        { "name": "supporting-text" },
+        { "name": "error" },
+        {
+          "name": "menu-positioning",
+          "values": [
+            { "name": "absolute" },
+            { "name": "fixed" }
+          ]
+        },
+        { "name": "typeahead-delay" },
+        { "name": "has-leading-icon" },
+        { "name": "display-text" },
+        { "name": "value" },
+        { "name": "selected-index" },
+        { "name": "name" },
+        { "name": "form" },
+        { "name": "labels" }
+      ]
+    },
+    {
+      "name": "md-select-option",
+      "description": "Select (also referred to as a dropdown menu) allows choosing a value from a fixed list of available options. It is analogous to the native HTML <select> element.",
+      "attributes": [
+        { "name": "disabled" },
+        { "name": "selected" },
+        { "name": "value" },
+        { "name": "type" }
+      ]
+    },
+
+    {
+      "name": "md-slider",
+      "description": "Sliders allow users to view and select a value (or range) along a track. They're ideal for adjusting settings such as volume and brightness, or for applying image filters.",
+      "attributes": [
+        { "name": "disabled" },
+        { "name": "min" },
+        { "name": "max" },
+        { "name": "value" },
+        { "name": "value-start" },
+        { "name": "value-end" },
+        { "name": "value-label" },
+        { "name": "value-label-start" },
+        { "name": "value-label-end" },
+        { "name": "aria-label-start" },
+        { "name": "aria-label-end" },
+        { "name": "aria-valuetext-start" },
+        { "name": "aria-valuetext-end" },
+        { "name": "step" },
+        { "name": "ticks" },
+        { "name": "labeled" },
+        { "name": "range" },
+        { "name": "name" },
+        { "name": "form" }
+      ]
+    },
+
+    {
+      "name": "md-switch",
+      "description": "Switches toggle the state of an item on or off.",
+      "attributes": [
+        { "name": "disabled" },
+        { "name": "selected" },
+        { "name": "icon" },
+        { "name": "show-only-selected-icon" },
+        { "name": "required" },
+        { "name": "value" },
+        { "name": "name" },
+        { "name": "form" }
+      ]
+    },
+
+    {
+      "name": "md-tabs",
+      "description": "Tabs organize groups of related content that are at the same level of hierarchy.",
+      "attributes": [
+        { "name": "auto-activate" }
+      ]
+    },
+    {
+      "name": "md-primary-tab",
+      "description": "Primary tabs are placed at the top of the content pane under a top app bar. They display the main content destinations.",
+      "attributes": [
+        { "name": "inline-icon" },
+        { "name": "md-tab" },
+        { "name": "active" },
+        { "name": "has-icon" },
+        { "name": "icon-only" },
+        { "name": "selected" }
+      ]
+    },
+    {
+      "name": "md-secondary-tab",
+      "description": "Secondary tabs are used within a content area to further separate related content and establish hierarchy.",
+      "attributes": [
+        { "name": "md-tab" },
+        { "name": "active" },
+        { "name": "has-icon" },
+        { "name": "icon-only" },
+        { "name": "selected" }
+      ]
+    },
+
+    {
+      "name": "md-filled-text-field",
+      "description": "Filled and outlined text fields are functionally identical. See choosing a text field for guidance on which one to use.",
+      "attributes": [
+        { "name": "disabled" },
+        { "name": "error" },
+        { "name": "error-text" },
+        { "name": "label" },
+        { "name": "required" },
+        { "name": "value" },
+        { "name": "prefix-text" },
+        { "name": "suffix-text" },
+        { "name": "has-leading-icon" },
+        { "name": "has-trailing-icon" },
+        { "name": "supporting-text" },
+        { "name": "text-direction" },
+        { "name": "rows" },
+        { "name": "inputmode" },
+        { "name": "max" },
+        { "name": "maxlength" },
+        { "name": "min" },
+        { "name": "minlength" },
+        { "name": "pattern" },
+        { "name": "placeholder" },
+        { "name": "readonly" },
+        { "name": "step" },
+        {
+          "name": "type",
+          "values": [
+            { "name": "text" },
+            { "name": "email" },
+            { "name": "number" },
+            { "name": "password" },
+            { "name": "search" },
+            { "name": "tel" },
+            { "name": "url" },
+            { "name": "textarea" }
+          ]
+        },
+        { "name": "autocomplete" },
+        { "name": "name" },
+        { "name": "form" }
+      ]
+    },
+    {
+      "name": "md-outlined-text-field",
+      "description": "Filled and outlined text fields are functionally identical. See choosing a text field for guidance on which one to use.",
+      "attributes": [
+        { "name": "disabled" },
+        { "name": "error" },
+        { "name": "error-text" },
+        { "name": "label" },
+        { "name": "required" },
+        { "name": "value" },
+        { "name": "prefix-text" },
+        { "name": "suffix-text" },
+        { "name": "has-leading-icon" },
+        { "name": "has-trailing-icon" },
+        { "name": "supporting-text" },
+        { "name": "text-direction" },
+        { "name": "rows" },
+        { "name": "inputmode" },
+        { "name": "max" },
+        { "name": "maxlength" },
+        { "name": "min" },
+        { "name": "minlength" },
+        { "name": "pattern" },
+        { "name": "placeholder" },
+        { "name": "readonly" },
+        { "name": "step" },
+        {
+          "name": "type",
+          "values": [
+            { "name": "text" },
+            { "name": "email" },
+            { "name": "number" },
+            { "name": "password" },
+            { "name": "search" },
+            { "name": "tel" },
+            { "name": "url" },
+            { "name": "textarea" }
+          ]
+        },
+        { "name": "autocomplete" },
+        { "name": "name" },
+        { "name": "form" }
+      ]
+    }
+
+  ]
+}

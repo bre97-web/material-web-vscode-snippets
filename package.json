@@ -30,6 +30,9 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ],
+    "html": {
+      "customData": ["./html.html-data.json"]
+    },
     "viewsContainers": {
       "activitybar": [
         {
