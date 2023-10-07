@@ -11,7 +11,7 @@
   "author": "bre97-web",
   "publisher": "bre97-web",
   "license": "MIT",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "icon": "src/images/icon/extension-icon-128.png",
   "engines": {
     "vscode": "^1.82.0"
