@@ -31,7 +31,10 @@
       }
     ],
     "html": {
-      "customData": ["./html.html-data.json"]
+      "customData": ["./custom-data/html.html-data.json"]
+    },
+    "css": {
+      "customData": ["./custom-data/css.css-data.json"]
     },
     "viewsContainers": {
       "activitybar": [
